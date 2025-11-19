@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dodm - Support</title>
+  <style>
+    :root{--bg:#f7f8fa;--card:#ffffff;--accent:#0b76ff;--muted:#6b7280}
+    body{margin:0;font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:#111}
+    header{background:linear-gradient(90deg,#ffffff, #f1f6ff);padding:28px 20px;border-bottom:1px solid #e6eefb}
+    .container{max-width:920px;margin:22px auto;padding:0 18px}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin:8px 0 18px}
+    .card{background:var(--card);border-radius:12px;padding:18px;margin-bottom:18px;box-shadow:0 6px 18px rgba(30,45,90,0.04)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    @media(max-width:880px){.grid{grid-template-columns:1fr}}
+    .muted{color:var(--muted);font-size:14px}
+    .faq h3{margin:12px 0}
+    .footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+    a{color:var(--accent);text-decoration:none}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+    ul.check{padding-left:18px}
+    .meta{font-size:13px;color:var(--muted)}
+    .support-list p{margin:6px 0}
+    .k{font-weight:600}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Dodm — Support</h1>
+      <p class="lead">Official support page for Dodm. Get help, find FAQs and access our Privacy Policy & Terms of Use.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <section>
+        <div class="card">
+          <h2>Contact Support</h2>
+          <p class="muted">Need help? Reach out to our support team and we’ll respond within 24–48 hours.</p>
+          <div class="support-list">
+            <p><strong>Email:</strong> <a href="mailto:support@dodmapp.com">support@dodmapp.com</a> <span class="meta">(replace with your real support email)</span></p>
+            <p><strong>App Name:</strong> Dodm</p>
+            <p class="meta">When contacting support, please include your phone number, app version, and a short description of the issue.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Quick Troubleshooting</h2>
+          <ul class="check">
+            <li><strong>Messages not sending:</strong> Check internet connection, restart app, or re-login.</li>
+            <li><strong>Contacts missing:</strong> Ensure Contacts permission is allowed in device settings and refresh the app.</li>
+            <li><strong>Unable to log in / OTP issues:</strong> Verify phone number and network; try OTP resend.</li>
+            <li><strong>Media won’t upload:</strong> Confirm Photos permission and sufficient network/data.</li>
+          </ul>
+        </div>
+
+        <div class="card faq">
+          <h2>Frequently Asked Questions (FAQ)</h2>
+          <h3>Why does Dodm ask for Contacts permission?</h3>
+          <p class="muted">To help you find which of your contacts already use Dodm and to make connecting easier. We only use contact data for matching; we do not sell or share your contacts.</p>
+
+          <h3>Does Dodm store my photos?</h3>
+          <p class="muted">Photos and media you share in chats are uploaded to our servers to deliver them to recipients. We do not access your photo gallery without permission.</p>
+
+          <h3>How do I delete my account?</h3>
+          <p class="muted">Open <em>Profile → Settings → Delete Account</em> inside the app. Deleting your account removes your personal data from our system.</p>
+
+          <h3>How can I change my profile information?</h3>
+          <p class="muted">Go to <em>Profile → Edit Profile</em> to update your display name and photo.</p>
+        </div>
+
+        <div class="card">
+          <h2>Legal & Privacy</h2>
+          <p class="muted">Dodm respects your privacy and handles personal data according to our Privacy Policy and Terms of Use.</p>
+          <p><a class="btn" href="https://docs.google.com/document/d/e/2PACX-1vSKkRHGazxiMwuWfb5b85I8q2Qv1lgI9te1pdQtKl4FOxyJ9aiZQuHBlMk9MPsOWnzo-26apdFTG82q/pub" target="_blank" rel="noopener">View Privacy Policy & Terms of Use</a></p>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h3>Summary</h3>
+          <p class="muted">Dodm is a messaging app that requires minimal data for core functionality: name, phone number, contacts (for matching), and media for messages.</p>
+          <p class="muted"><strong>Response time:</strong> 24–48 hours</p>
+        </div>
+
+        <div class="card">
+          <h3>Permissions Explained</h3>
+          <p class="muted"><span class="k">Contacts</span>: To find friends who use Dodm.</p>
+          <p class="muted"><span class="k">Photos / Camera</span>: To send and capture media in chats.</p>
+          <p class="muted"><span class="k">Notifications</span>: To receive message alerts.</p>
+        </div>
+
+        <div class="card">
+          <h3>Useful Links</h3>
+          <p><a href="https://docs.google.com/document/d/e/2PACX-1vSKkRHGazxiMwuWfb5b85I8q2Qv1lgI9te1pdQtKl4FOxyJ9aiZQuHBlMk9MPsOWnzo-26apdFTG82q/pub" target="_blank" rel="noopener">Privacy Policy & Terms (Hosted)</a></p>
+          <p><a href="mailto:support@dodmapp.com">Contact Support</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 Dodm. All rights reserved.</p>
+    </div>
+  </main>
+</body>
+</html>
